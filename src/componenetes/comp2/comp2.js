@@ -1,6 +1,10 @@
+import './comp2.css';
+
 function Foott(){
-    const name='Yannick'
-    return <h1>Hellso {name}</h1>;
+    return (
+        <div className="Foott">
+        <p>&copy; 2023 Vivero YanCactus</p>
+        </div>);
 }
 
 export default Foott;

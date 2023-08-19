@@ -1,8 +1,12 @@
 
+import './comp1.css';
 
 function Heade(){
-    const name='Yannick'
-    return <h1>Hellso {name}</h1>;
+    return (
+        <div className="Heade">
+        <h1>Vivero YanCactus</h1>
+        </div>
+        );
 }
 
 export default Heade;

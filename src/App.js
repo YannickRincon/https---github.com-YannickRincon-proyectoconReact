@@ -10,9 +10,9 @@ import Contact from './componenetes/comp8/comp8';
 
 function App() {
   return (
-    <>
     
     <div className="App">
+
     <div><Heade></Heade></div>
     <div><Carticon></Carticon></div>
     <div><Description></Description></div>
@@ -21,9 +21,8 @@ function App() {
     <div><Contact></Contact></div>
     <div><Location></Location></div>
     <div><Foott></Foott></div>
-    </div>
     
-    </>
+    </div>
   );
 }
 

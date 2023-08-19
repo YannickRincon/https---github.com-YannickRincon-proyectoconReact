@@ -1,0 +1,7 @@
+.Heade{
+    background-color: #4caf50;
+    display: flex;
+    justify-content: center;
+    color: white;
+    min-height: 15vh;
+}
