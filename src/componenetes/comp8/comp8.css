@@ -1,0 +1,7 @@
+.Contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #969c96;
+    color:white;
+}

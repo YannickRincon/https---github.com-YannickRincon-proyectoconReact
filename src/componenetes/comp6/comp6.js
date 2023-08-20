@@ -1,5 +1,5 @@
 function Main(){
     const name='Yannick'
-    return <h1>Hellso {name}</h1>;
+    return <img src='cart.png' alt="este"></img>;
 }
 export default Main;

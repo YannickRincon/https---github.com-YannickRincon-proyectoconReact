@@ -1,5 +1,10 @@
+import './comp4.css'
+
 function Carticon(){
-    const name='Yannick'
-    return <h1>Hellso {name}</h1>;
+    return (
+        <div>
+        <img src='cart.png' alt="este"></img>
+        </div>
+    );
 }
 export default Carticon;
