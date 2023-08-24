@@ -1,0 +1,14 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* 30% of viewport height */
+    margin-top: 20px; /* Adjust margin as needed */
+    margin-bottom: 10vh;
+  }
+  
+  .contenedor img {
+    max-width: 100%;
+    max-height: 100%;
+  }
