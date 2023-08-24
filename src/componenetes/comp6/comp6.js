@@ -1,3 +1,4 @@
+import './comp6.css';
 import React, { useState, useEffect } from 'react';
 
 function Main() {
@@ -63,7 +64,7 @@ function TotalPriceDisplay({ plants }) {
       0
     );
   
-    return <div className="total-price">Total Price: ${totalPrice}</div>;
+    return <button className="total-price">Total Price: ${totalPrice}</button>;
   }
 
 export default Main;

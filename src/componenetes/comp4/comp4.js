@@ -2,7 +2,7 @@ import './comp4.css'
 
 function Carticon(){
     return (
-        <div>
+        <div className='carti'>
         <img src='cart.png' alt="este"></img>
         </div>
     );

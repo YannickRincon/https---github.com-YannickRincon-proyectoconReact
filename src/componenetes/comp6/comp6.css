@@ -1,0 +1,41 @@
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; 
+    margin: 5vw;
+  }
+  
+  .image-item {
+    flex: 0 1 calc(20% - 20px); 
+    background-color: rgb(205, 207, 191);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #363333;
+  }
+  
+  .image-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .total-price {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; /* Adjust margin as needed */
+  }
+  
+  .total-price button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+  }
+  
+  .total-price button:hover {
+    background-color: #2980b9;
+  }
