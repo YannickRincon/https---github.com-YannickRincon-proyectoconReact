@@ -38,6 +38,7 @@ function PlantImages() {
 
   return (
     <div className='contenedor'>
+        <h3>¡Gracias por visitarnos!</h3>
       <img src={plantImage} alt="Random Plant" />
     </div>
   );

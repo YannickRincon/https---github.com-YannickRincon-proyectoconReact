@@ -42,7 +42,7 @@ function Main() {
     <div className="image-grid">
       {plants.map((plant) => (
         <div className="image-item" key={plant.id}>
-          <img src={`images/${plant.id}.jpg`} alt={`Imagen ${plant.id}`} />
+          <img src={`${plant.id}.jpg`} alt={`Imagen ${plant.id}`} />
           <h3>{plant.name}</h3>
           <p className="feature">{plant.feature}</p>
           <p>${plant.price}</p>
