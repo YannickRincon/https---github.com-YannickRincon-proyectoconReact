@@ -53,9 +53,17 @@ function Main() {
           </div>
         </div>
       ))}
-      <div className="total-price">Total Price: ${totalPrice}</div>
+        <TotalPriceDisplay plants={plants} />
     </div>
   );
 }
+function TotalPriceDisplay({ plants }) {
+    const totalPrice = plants.reduce(
+      (total, plant) => total + plant.price * plant.units,
+      0
+    );
+  
+    return <div className="total-price">Total Price: ${totalPrice}</div>;
+  }
 
 export default Main;
