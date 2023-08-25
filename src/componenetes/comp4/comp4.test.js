@@ -6,3 +6,5 @@ test('renders cart icon image', () => {
   const cartIconImage = getByAltText('este');
   expect(cartIconImage).toBeInTheDocument();
 });
+
+//Este test evalua si la descripcion de una imagen se encuentra en el componente correctamente

@@ -6,3 +6,5 @@ test('renders copyright text correctly', () => {
   const copyrightElement = getByText(/&copy; 2023 Vivero YanCactus/i);
   expect(copyrightElement).toBeInTheDocument();
 });
+
+//Este test evalua si el texto "&copy; 2023 Vivero YanCactus" se encuentra en el componente correctamente

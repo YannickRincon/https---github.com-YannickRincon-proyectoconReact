@@ -1,7 +1,6 @@
 import './comp5.css';
 
 function Description(){
-    const name='Yannick'
     return (
         <div className="Description">
             <h3>Quienes somos</h3>
