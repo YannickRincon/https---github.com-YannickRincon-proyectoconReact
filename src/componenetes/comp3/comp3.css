@@ -1,10 +1,10 @@
 .contenedor {
-    display: flex;
+    display: flex;        /*Se establece el display flex, se pone en modo columna y se ajustan los tamagnos */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh; /* 30% of viewport height */
-    margin-top: 20px; /* Adjust margin as needed */
+    height: 50vh;
+    margin-top: 20px;
     margin-bottom: 10vh;
   }
   

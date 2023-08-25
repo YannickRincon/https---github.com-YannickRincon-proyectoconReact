@@ -1,5 +1,5 @@
 .Heade{
-    background-color: #4caf50;
+    background-color: #4caf50; /*se da color al header y se pone en display flex */
     display: flex;
     justify-content: center;
     color: white;

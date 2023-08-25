@@ -1,6 +1,10 @@
-import './comp3.css'
+import './comp3.css' //Se importa el CSS de la misma carpeta
 import React, { useState, useEffect } from 'react';
 
+
+//Este componente se encarga de llamar la API y mostrar la informacion de una imagen recibida
+//Usa un comando fetch para obtener la imagen de la API y usa una clave de autorizacion
+//la imagen se guarda en la variable plantImagel
 function PlantImages() {
   const [plantImage, setPlantImage] = useState('');
   const [loading, setLoading] = useState(true);
@@ -36,6 +40,8 @@ function PlantImages() {
     return <div>Error: {error.message}</div>;
   }
 
+  //Aqui empiza la informacion que se muestra en la pagina
+  //es una simple foto random que se obtiene de la API
   return (
     <div className='contenedor'>
         <h3>¡Gracias por visitarnos!</h3>

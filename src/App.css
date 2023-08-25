@@ -1,5 +1,5 @@
 .App {
-  background-color: #b5ffb9;
+  background-color: #b5ffb9; /*Se establece el background default de la pagina */
   text-align: center;
   display: flex;
   flex-direction: column;

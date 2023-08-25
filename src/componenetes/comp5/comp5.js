@@ -1,4 +1,6 @@
-import './comp5.css';
+import './comp5.css'; //Se importa el CSS de la misma carpeta
+
+//este componente muestra un titulo y un texto
 
 function Description(){
     return (

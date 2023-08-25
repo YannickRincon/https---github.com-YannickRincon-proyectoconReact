@@ -1,5 +1,6 @@
-import './comp8.css';
+import './comp8.css'; //Se importa el CSS de la misma carpeta
 
+//Se crea un componente que muestra un titulo y un texto
 function Contact(){
     return (
         <div className='Contact'>

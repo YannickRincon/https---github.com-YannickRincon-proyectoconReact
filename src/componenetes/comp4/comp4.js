@@ -1,4 +1,6 @@
-import './comp4.css'
+import './comp4.css' //Se importa el CSS de la misma carpeta
+
+//Este componente muestra una imagen solamente
 
 function Carticon(){
     return (
